@@ -1,0 +1,7 @@
+﻿  class.c
+C:\Users\oferm\source\repos\C learning\lesson07.09.2022\lesson07.09.2022\class.c(93,11): warning C4098: 'saveListInFile': 'void' function returning a value
+C:\Users\oferm\source\repos\C learning\lesson07.09.2022\lesson07.09.2022\class.c(114,11): warning C4098: 'buildListByFile': 'void' function returning a value
+C:\Users\oferm\source\repos\C learning\lesson07.09.2022\lesson07.09.2022\class.c(121,11): warning C4098: 'buildListByFile': 'void' function returning a value
+C:\Users\oferm\source\repos\C learning\lesson07.09.2022\lesson07.09.2022\class.c(130,10): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\oferm\source\repos\C learning\lesson07.09.2022\lesson07.09.2022\class.c(117,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  lesson07.09.2022.vcxproj -> C:\Users\oferm\source\repos\C learning\lesson07.09.2022\x64\Debug\lesson07.09.2022.exe
