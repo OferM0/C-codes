@@ -1,0 +1,3 @@
+﻿  class.c
+C:\Users\oferm\source\repos\C learning\lesson21.08.2022\lesson21.08.2022\class.c(12,2): warning C4013: 'printBits' undefined; assuming extern returning int
+  lesson21.08.2022.vcxproj -> C:\Users\oferm\source\repos\C learning\lesson21.08.2022\x64\Debug\lesson21.08.2022.exe
