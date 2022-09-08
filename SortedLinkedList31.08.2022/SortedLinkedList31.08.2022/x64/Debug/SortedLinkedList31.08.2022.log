@@ -1,0 +1,7 @@
+﻿  linkedlist.c
+  random.c
+C:\Users\oferm\source\repos\C learning\SortedLinkedList31.08.2022\SortedLinkedList31.08.2022\random.c(12,13): warning C4013: 'time' undefined; assuming extern returning int
+C:\Users\oferm\source\repos\C learning\SortedLinkedList31.08.2022\SortedLinkedList31.08.2022\random.c(13,8): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+  sortedLinkedList.c
+  Generating Code...
+  SortedLinkedList31.08.2022.vcxproj -> C:\Users\oferm\source\repos\C learning\SortedLinkedList31.08.2022\x64\Debug\SortedLinkedList31.08.2022.exe
