@@ -1,0 +1,10 @@
+﻿  homeWork.c
+C:\Users\oferm\source\repos\C learning\lesson22.08.2022\lesson22.08.2022\homeWork.c(113,13): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'char *'
+C:\Users\oferm\source\repos\C learning\lesson22.08.2022\lesson22.08.2022\homeWork.c(113,13): warning C4313: 'printf': '%x' in format string conflicts with argument 1 of type 'char *'
+C:\Users\oferm\source\repos\C learning\lesson22.08.2022\lesson22.08.2022\homeWork.c(139,13): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'int *'
+C:\Users\oferm\source\repos\C learning\lesson22.08.2022\lesson22.08.2022\homeWork.c(139,13): warning C4313: 'printf': '%x' in format string conflicts with argument 1 of type 'int *'
+C:\Users\oferm\source\repos\C learning\lesson22.08.2022\lesson22.08.2022\homeWork.c(86,1): warning C4047: 'initializing': 'char *' differs in levels of indirection from 'int'
+C:\Users\oferm\source\repos\C learning\lesson22.08.2022\lesson22.08.2022\homeWork.c(53): warning C4716: 'charStars': must return a value
+C:\Users\oferm\source\repos\C learning\lesson22.08.2022\lesson22.08.2022\homeWork.c(77): warning C4716: 'linesSum': must return a value
+C:\Users\oferm\source\repos\C learning\lesson22.08.2022\lesson22.08.2022\homeWork.c(29): warning C4716: 'charsSum': must return a value
+  lesson22.08.2022.vcxproj -> C:\Users\oferm\source\repos\C learning\lesson22.08.2022\x64\Debug\lesson22.08.2022.exe
