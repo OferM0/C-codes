@@ -1,0 +1,9 @@
+﻿  class.c
+C:\Users\oferm\source\repos\C learning\LinkedList_29.08.2022\LinkedList_29.08.2022\class.c(60,3): warning C4033: 'main_2' must return a value
+C:\Users\oferm\source\repos\C learning\LinkedList_29.08.2022\LinkedList_29.08.2022\class.c(45,6): warning C4101: 'id': unreferenced local variable
+C:\Users\oferm\source\repos\C learning\LinkedList_29.08.2022\LinkedList_29.08.2022\class.c(116,2): warning C4013: 'PrintList' undefined; assuming extern returning int
+C:\Users\oferm\source\repos\C learning\LinkedList_29.08.2022\LinkedList_29.08.2022\class.c(117,2): warning C4013: 'Find44' undefined; assuming extern returning int
+C:\Users\oferm\source\repos\C learning\LinkedList_29.08.2022\LinkedList_29.08.2022\class.c(118,37): warning C4013: 'FindId' undefined; assuming extern returning int
+C:\Users\oferm\source\repos\C learning\LinkedList_29.08.2022\LinkedList_29.08.2022\class.c(73): warning C4715: 'main_2': not all control paths return a value
+C:\Users\oferm\source\repos\C learning\LinkedList_29.08.2022\LinkedList_29.08.2022\class.c(178): warning C4715: 'FindId': not all control paths return a value
+  LinkedList_29.08.2022.vcxproj -> C:\Users\oferm\source\repos\C learning\LinkedList_29.08.2022\x64\Debug\LinkedList_29.08.2022.exe
