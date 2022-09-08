@@ -1,0 +1,6 @@
+﻿  homeWork.c
+C:\Users\oferm\source\repos\C learning\lesson15.08.2022\lesson15.08.2022\homeWork.c(70,7): warning C4013: 'checkIfRishoni' undefined; assuming extern returning int
+C:\Users\oferm\source\repos\C learning\lesson15.08.2022\lesson15.08.2022\homeWork.c(111,3): warning C4013: 'isPolindrom' undefined; assuming extern returning int
+  lesson15.08.2022.c
+  Generating Code...
+  lesson15.08.2022.vcxproj -> C:\Users\oferm\source\repos\C learning\lesson15.08.2022\x64\Debug\lesson15.08.2022.exe
