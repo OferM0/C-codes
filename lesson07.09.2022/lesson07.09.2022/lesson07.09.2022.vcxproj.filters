@@ -18,8 +18,5 @@
     <ClCompile Include="class.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="homeWork.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

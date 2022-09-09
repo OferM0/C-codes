@@ -59,6 +59,8 @@ void printList()
 
 t_item* newItem(int key, int val)
 {
+	fileHeader.itemsCount++;
+
 	t_item* ret= (t_item*)malloc(sizeof(t_item));
 	ret->key = key;
 	ret->val = val;
@@ -83,7 +85,6 @@ t_item* newItem(int key, int val)
 //save list and header in file
 void saveListInFile(char fileName [20])
 {
-	int cnt=0;
 	t_item* curr = head;
 	FILE* f = fopen(fileName, "w");
 
@@ -92,20 +93,24 @@ void saveListInFile(char fileName [20])
 		//error
 		return 1;
 	}
+
+	// write the header into file
 	fwrite(&fileHeader, sizeof(t_headerFile), 1, f);
-	while (curr->next != NULL)
+
+	//write all items into file
+	while (curr != NULL)
 	{
-		cnt++;
 		fwrite(curr, sizeof(t_item), 1, f);
 		curr = curr->next;
 	}
-	fileHeader.itemsCount = cnt;
 	fclose(f);
 }
 
 //build the list by reading from file
 void buildListByFile(char fileName[20])
 {
+	t_headerFile headerOfFile;
+
 	//read from file
 	FILE* f = fopen(fileName, "r");
 	if (!f)
@@ -114,7 +119,7 @@ void buildListByFile(char fileName[20])
 		return 1;
 	}
 
-	int read = fread(&fileHeader, sizeof(t_headerFile), 1, f);
+	int read = fread(&headerOfFile, sizeof(t_headerFile), 1, f);
 	if (read == 0)
 	{
 		//error
@@ -124,7 +129,7 @@ void buildListByFile(char fileName[20])
 	//build the list
 	head = NULL;
 	tail = NULL;
-	for (int i = 0; i < fileHeader.itemsCount; i++)
+	for (int i = 0; i < headerOfFile.itemsCount; i++)
 	{
 		t_item* curr = (t_item*)malloc(sizeof(t_item));
 		read = fread(curr, sizeof(t_item), 1, f);
@@ -138,7 +143,6 @@ t_item* search(int key)
 {
 	t_item* ret = NULL;
 	t_item* curr = head;
-	int check = 0;
 
 	while (curr != NULL)
 	{
@@ -159,6 +163,7 @@ void removeOne(int key)
 
 	if (curr)
 	{
+		fileHeader.itemsCount--;
 		if (curr == tail && curr != head)
 		{
 			tail = curr->prev;
@@ -195,11 +200,10 @@ int main()
 	char userResponse;
 	char fileName[20];
 	t_item* show;
-
-	t_headerFile fileHeader;
+	fileHeader.itemsCount=0;
 	fileHeader.version = 1;
-	fileHeader.itemsCount = 0;
-	fileHeader.serialNum = 12345;
+	fileHeader.serialNum = 111;
+	strcpy(fileHeader.reserve, "Aba");
 
 	printf("Please choose what to do. A- for adding, P- for printing dictionary,F- for show value, U-for updating, D-for removing, S-for saving, L-for loading, E- for exit.\n");
 	scanf(" %c", &userResponse);
@@ -211,7 +215,6 @@ int main()
 			printf("Please enter key and value\n");
 			scanf("%d %d", &key, &val);
 			newItem(key, val);
-			fileHeader.itemsCount++;
 			break;
 
 		case 'P':
@@ -263,6 +266,7 @@ int main()
 		case 'L':
 			printf("Please enter name of file\n");
 			scanf("%s", fileName);
+
 			buildListByFile(fileName);
 			
 			break;
