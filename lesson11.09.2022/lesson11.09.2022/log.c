@@ -23,7 +23,7 @@ void Log(char message[100])
 void LogEvent(char message[100])
 {
 	char str[100];
-	sprintf(str, "%s %s", "Event – ", message);
+	sprintf(str, "%s %s", "Event ï¿½ ", message);
 	Log(str);
 }
 
@@ -65,4 +65,5 @@ int main_1()
 	LogEvent("End Of System");
 
 	return 0;
+	//dd
 }
