@@ -1,0 +1,7 @@
+﻿  BubbleSort.c
+C:\Users\oferm\source\repos\C learning\lesson12.09.2022\lesson12.09.2022\BubbleSort.c(197,8): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\oferm\source\repos\C learning\lesson12.09.2022\lesson12.09.2022\BubbleSort.c(231,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'time_t'
+C:\Users\oferm\source\repos\C learning\lesson12.09.2022\lesson12.09.2022\BubbleSort.c(231,9): message : consider using '%lld' in the format string
+C:\Users\oferm\source\repos\C learning\lesson12.09.2022\lesson12.09.2022\BubbleSort.c(231,9): message : consider using '%Id' in the format string
+C:\Users\oferm\source\repos\C learning\lesson12.09.2022\lesson12.09.2022\BubbleSort.c(231,9): message : consider using '%I64d' in the format string
+  lesson12.09.2022.vcxproj -> C:\Users\oferm\source\repos\C learning\lesson12.09.2022\x64\Debug\lesson12.09.2022.exe
