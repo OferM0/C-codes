@@ -1,0 +1,40 @@
+122:08:11 - Event –  System Is Starting
+
+122:08:11 - Event –  The user entered the number: 4
+
+122:08:11 - Event –  Open file succed
+
+122:08:11 - Event –  Close the file
+
+122:08:11 - Event –  End Of System
+
+Sun Sep 11 13:07:25 2022
+ - Event –  System Is Starting
+
+Sun Sep 11 13:07:27 2022
+ - Event –  The user entered the number: 8
+
+Sun Sep 11 13:07:27 2022
+ - Event –  Open file succed
+
+Sun Sep 11 13:07:27 2022
+ - Event –  Close the file
+
+Sun Sep 11 13:07:27 2022
+ - Event –  End Of System
+
+Sun Sep 11 13:08:43 2022
+ - Event –  System Is Starting
+
+Sun Sep 11 13:08:44 2022
+ - Event –  The user entered the number: 2
+
+Sun Sep 11 13:08:44 2022
+ - Event –  Open file succed
+
+Sun Sep 11 13:08:44 2022
+ - Event –  Close the file
+
+Sun Sep 11 13:08:44 2022
+ - Event –  End Of System
+
