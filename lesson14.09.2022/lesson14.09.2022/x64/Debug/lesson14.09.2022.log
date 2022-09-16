@@ -1,0 +1,11 @@
+﻿  parsing_structure_linkedList.c
+C:\Users\oferm\source\repos\C learning\lesson14.09.2022\lesson14.09.2022\parsing_structure_linkedList.c(134,24): warning C4047: '!=': 'int' differs in levels of indirection from 'void *'
+C:\Users\oferm\source\repos\C learning\lesson14.09.2022\lesson14.09.2022\parsing_structure_linkedList.c(151,17): warning C4047: '=': 'char' differs in levels of indirection from 'void *'
+C:\Users\oferm\source\repos\C learning\lesson14.09.2022\lesson14.09.2022\parsing_structure_linkedList.c(187,12): warning C4098: 'UpdatePopolarity': 'void' function returning a value
+C:\Users\oferm\source\repos\C learning\lesson14.09.2022\lesson14.09.2022\parsing_structure_linkedList.c(197,8): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\oferm\source\repos\C learning\lesson14.09.2022\lesson14.09.2022\parsing_structure_linkedList.c(237,11): warning C4098: 'Save': 'void' function returning a value
+C:\Users\oferm\source\repos\C learning\lesson14.09.2022\lesson14.09.2022\parsing_structure_linkedList.c(258,11): warning C4098: 'Load': 'void' function returning a value
+C:\Users\oferm\source\repos\C learning\lesson14.09.2022\lesson14.09.2022\parsing_structure_linkedList.c(265,11): warning C4098: 'Load': 'void' function returning a value
+C:\Users\oferm\source\repos\C learning\lesson14.09.2022\lesson14.09.2022\parsing_structure_linkedList.c(274,10): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\oferm\source\repos\C learning\lesson14.09.2022\lesson14.09.2022\parsing_structure_linkedList.c(261,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  lesson14.09.2022.vcxproj -> C:\Users\oferm\source\repos\C learning\lesson14.09.2022\x64\Debug\lesson14.09.2022.exe
