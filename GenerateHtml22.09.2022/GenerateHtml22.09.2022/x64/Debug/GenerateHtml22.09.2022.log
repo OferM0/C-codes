@@ -1,0 +1,3 @@
+﻿  GenerateHtml22.09.2022.c
+C:\Users\oferm\source\repos\C learning\GenerateHtml22.09.2022\GenerateHtml22.09.2022\GenerateHtml22.09.2022.c(141,17): warning C4013: 'gets' undefined; assuming extern returning int
+  GenerateHtml22.09.2022.vcxproj -> C:\Users\oferm\source\repos\C learning\GenerateHtml22.09.2022\x64\Debug\GenerateHtml22.09.2022.exe
