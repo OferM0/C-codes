@@ -126,7 +126,7 @@ void LoadFile()
 {
 	char movie[1000], name[1000], str[1000];
 	int index, age, year;
-	FILE* f = fopen("f.txt", "r");
+	FILE* f = fopen("f.txt", "rb");
 
 	if (f)
 	{
@@ -226,7 +226,7 @@ void mostPopular()
 void Save(char filename[100])
 {
 	struct OskarActor* curr = head;
-	FILE* f = fopen(filename, "w");
+	FILE* f = fopen(filename, "wb");
 	struct OskarActor_Header h;
 	h.Version = 1;
 	h.ActorCount = GetOskarActorCount();	
@@ -251,7 +251,7 @@ void Load(char filename[100])
 	struct OskarActor_Header headerOfFile;
 
 	//read from file
-	FILE* f = fopen(filename, "r");
+	FILE* f = fopen(filename, "rb");
 	if (!f)
 	{
 		//error
@@ -281,8 +281,8 @@ int main() {
 	//LoadFile();
 	//printList();
 	//run();
-	//Save("file2.bin");
-	Load("file3.bin");
+	//Save("file5.bin");
+	Load("file5.bin");
 	printList();
 	mostPopular();
 
